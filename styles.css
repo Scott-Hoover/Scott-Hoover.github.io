@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&family=Titillium+Web:wght@300&display=swap');
+
+body {
+    background-color: rgb(243, 241, 241);
+    margin: 0;
+}
+
+.big_text {
+    font-family: 'Tiro Tamil', serif;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background: rgb(200, 205, 244);
+}
+
+footer {
+    background: rgb(200, 205, 244);
+}
+
+.card {
+    background: rgb(215, 245, 221);
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.display-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.resize {
+    width: 120px;
+    height: auto;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 40px;
+    
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav a:visited{
+    color: rgb(8, 86, 25);
+}
+
+.round {
+    border-radius: 25px;
+}
+
+.pink {
+    color:rgb(244, 14, 213)
+}
+
+.bootstrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5rem;
+    margin: 24px;
+    color:rgb(25, 96, 114)
+}
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+}
+
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+img {
+    
+    height: 25%;
+    width: 25%;
+}
+
+.nav-box {
+    margin: 1rem auto;
+    
+    background: white;
+    border-bottom: 1px solid blue;
+    box-shadow: rebeccapurple;
+}
+
+form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: rgb(215, 245, 221);
+    border-radius: 8px;
+}
+
+
+.cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #25ad19 !important;
+}
+
+.btn-primary:hover {
+    background-color: #10520a !important;
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.grid-left {
+    grid-column: 1/2;
+}
+
+.grid-right {
+    grid-column: 2/10;
+}
+
+.grey {
+    background: rgb(215, 245, 221);;
+    
+}
+
+.circle {
+    border-radius: 50%;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marg {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+ 
+
+.buttontrans {
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all .3s;
+    background-image: linear-gradient(to right, rgb(54, 220, 96), rgb(26, 164, 132), rgb(20, 127, 220));
+    background-size: 200% auto;
+    background-position: left center;
+  }
+  
+  .buttontrans:hover {
+    background-position:  right;
+  }
+    
+
+  
+
+@media screen and (max-width: 900px){
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .smallt {
+        font-size: 20px;
+    }
+}
